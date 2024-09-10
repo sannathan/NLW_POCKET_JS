@@ -5,12 +5,24 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, resolve
 
 **Algoritmo**: Sequência de passos lógica e finita para resolução de um problema.
 
+## Peças de uma linguagem 
+
+- Comentários
+- Declaração de variáveis (const, let)
+- Operadores (atribuição, concatenação, matemáticos, lógicos)
+
+# Operadores
+- [x] Operadores de atribuição de valor =
+- [x] Operador de concatenação +
+- [x] Operadores de comparação: ==  != > < >= <=
+
 # Estrutura de repetição
- - [x] while
+- [x] while
 
 # Condicionais 
 
 - [x] switch
+- [x] if/else
 
 # Módulos em Node.js:
 
