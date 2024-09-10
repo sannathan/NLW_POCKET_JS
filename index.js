@@ -1,19 +1,27 @@
-// let meta = {
-//     value: 'ler um livro por mês',
-//     checked: false,    
-// }
+const { select } = require('@inquirer/prompts')
 
-// let metas = [
-//     meta,
-//     {
-//         value: "caminhar 20 minutos todos os dias",
-//         checked: false
-//     }
-// ]
+const start = async() => {
 
-function start() {
     while(true){
-        let opcao = "sair"
+
+        const opcao = await select({
+            message: "Menu >",
+            choices: [
+                {
+                    name: "Cadastrar meta",
+                    value: "Cadastrar"
+                },
+                {
+                    name: "Listar metas",
+                    value: "listar"
+                },
+                {
+                    name: "Sair",
+                    value: "sair"
+                }
+            ]
+        })
+
         switch(opcao){
             case "cadastrar":
                 console.log("vamos cadastrar")
@@ -28,3 +36,31 @@ function start() {
 }
 
 start();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let meta = {
+//     value: 'ler um livro por mês',
+//     checked: false,    
+// }
+
+// let metas = [
+//     meta,
+//     {
+//         value: "caminhar 20 minutos todos os dias",
+//         checked: false
+//     }
+// ]
