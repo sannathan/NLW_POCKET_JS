@@ -1,7 +1,8 @@
--Criar metas
-- Listar metas
-    - Metas concluídas
-    - Metas abertas
-- Marcar / Desmarcar metas como concluída
-- Remover metas
-- Sistema de mensagens
+- [x]Criar metas
+- [x]Listar metas
+    - [x]Metas concluídas
+    - [x]Metas abertas
+- [x]Marcar / Desmarcar metas como concluída
+- [x]Remover metas
+- [x]Sistema de mensagens
+- [x]Persistir Dados: Sistema de carregar e salvar metas
